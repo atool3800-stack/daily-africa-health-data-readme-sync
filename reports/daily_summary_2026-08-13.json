@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-13T14:20:44.730033+00:00",
+  "max_date": "2026-08-13",
+  "total_records": 8509,
+  "new_records": 262,
+  "records_by_region": {
+    "Egypt": 4261,
+    "South Africa": 4248
+  },
+  "records_by_disease": {
+    "Kidney Disease": 418,
+    "COVID-19": 788,
+    "Schistosomiasis": 452,
+    "Hepatitis C": 485,
+    "Hypertension": 809,
+    "Cholera": 875,
+    "Dengue Fever": 421,
+    "Tuberculosis": 827,
+    "Diabetes Mellitus": 805,
+    "Maternal Health": 874,
+    "HIV/AIDS": 456,
+    "Mental Health": 418,
+    "Childhood Immunization": 469,
+    "Malaria": 412
+  },
+  "records_by_source": {
+    "clinical_trial": 2589,
+    "public_health_surveillance": 3837,
+    "epidemiological_survey": 2083
+  },
+  "missing_ratio": {
+    "record_id": 0.0,
+    "region": 0.0,
+    "country": 0.0,
+    "province": 0.0,
+    "city": 3.76,
+    "date": 0.0,
+    "source_type": 0.0,
+    "disease_type": 0.0,
+    "age_group": 5.92,
+    "sex": 4.71,
+    "age": 5.92,
+    "cases": 8.86,
+    "tested": 12.32,
+    "positive": 12.32,
+    "population_at_risk": 0.0
+  },
+  "completeness": 96.41,
+  "default_branch": "main",
+  "latest_commit": {
+    "sha": "1e57af2",
+    "message": "Initial commit",
+    "date": "2026-08-13T14:15:43Z",
+    "author": "atool3800-stack"
+  }
+}
