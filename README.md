@@ -8,7 +8,7 @@ Structured public-health records for **South Africa** and **Egypt** collected fr
 
 ## 📊 每日数据摘要 / Daily Data Summary
 
-*Generated at **2026-08-13 14:24 UTC** from 72 data file(s).*
+*Generated at **2026-08-13 14:25 UTC** from 72 data file(s).*
 
 | Metric | Value |
 | --- | --- |
@@ -19,7 +19,7 @@ Structured public-health records for **South Africa** and **Egypt** collected fr
 | **Latest data update** | 2026-08-13 |
 | **Data completeness** | 96.4% |
 | **Default branch** | `main` |
-| **Latest commit** | [`e169ecf`](https://github.com/atool3800-stack/daily-africa-health-data-readme-sync/commit/e169ecf) `daily(readme): update health data summary 2026-08-13` (2026-08-13T14:22:03Z) |
+| **Latest commit** | [`246dafd`](https://github.com/atool3800-stack/daily-africa-health-data-readme-sync/commit/246dafd) `refactor(scripts): report new records for the latest batch date` (2026-08-13T14:24:35Z) |
 
 ---
 
@@ -54,8 +54,8 @@ Structured public-health records for **South Africa** and **Egypt** collected fr
 | HIV/AIDS | 456 | 5.4% |
 | Schistosomiasis | 452 | 5.3% |
 | Dengue Fever | 421 | 4.9% |
-| Kidney Disease | 418 | 4.9% |
 | Mental Health | 418 | 4.9% |
+| Kidney Disease | 418 | 4.9% |
 | Malaria | 412 | 4.8% |
 
 ---
