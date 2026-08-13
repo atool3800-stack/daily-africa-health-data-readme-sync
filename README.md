@@ -2,24 +2,24 @@
 
 Structured public-health records for **South Africa** and **Egypt** collected from **clinical trials**, **public-health surveillance** and **epidemiological surveys**. This page is regenerated automatically every day by a scheduled GitHub Actions workflow and is intended for **academic researchers**.
 
-![records](https://img.shields.io/badge/records-8%2C509-blue) ![last update](https://img.shields.io/badge/last%20update-2026-08-13-brightgreen) ![regions](https://img.shields.io/badge/regions-2-orange) ![data completeness](https://img.shields.io/badge/data%20completeness-96.4%25-green) ![new records](https://img.shields.io/badge/new%20records-262-yellow)
+![records](https://img.shields.io/badge/records-8%2C509-blue) ![last update](https://img.shields.io/badge/last%20update-2026-08-13-brightgreen) ![regions](https://img.shields.io/badge/regions-2-orange) ![data completeness](https://img.shields.io/badge/data%20completeness-96.4%25-green) ![new records](https://img.shields.io/badge/new%20records-0-yellow)
 
 ---
 
 ## 📊 每日数据摘要 / Daily Data Summary
 
-*Generated at **2026-08-13 14:20 UTC** from 72 data file(s).*
+*Generated at **2026-08-13 14:22 UTC** from 72 data file(s).*
 
 | Metric | Value |
 | --- | --- |
 | **Total records** | 8,509 |
-| **New records (since last sync)** | 262 |
+| **New records (since last sync)** | 0 |
 | **Regions covered** | 2 (South Africa, Egypt) |
 | **Date range** | 2026-07-09 → 2026-08-13 |
 | **Latest data update** | 2026-08-13 |
 | **Data completeness** | 96.4% |
 | **Default branch** | `main` |
-| **Latest commit** | [`1e57af2`](https://github.com/atool3800-stack/daily-africa-health-data-readme-sync/commit/1e57af2) `Initial commit` (2026-08-13T14:15:43Z) |
+| **Latest commit** | [`f6be219`](https://github.com/atool3800-stack/daily-africa-health-data-readme-sync/commit/f6be219) `daily(readme): update health data summary 2026-08-13` (2026-08-13T14:20:50Z) |
 
 ---
 
@@ -27,9 +27,9 @@ Structured public-health records for **South Africa** and **Egypt** collected fr
 
 | Region | Records | Share | New (latest batch) |
 | --- | ---: | ---: | ---: |
-| South Africa | 4,248 | 49.9% | 133 |
-| Egypt | 4,261 | 50.1% | 129 |
-| **Total** | **8,509** | 100.0% | **262** |
+| South Africa | 4,248 | 49.9% | 0 |
+| Egypt | 4,261 | 50.1% | 0 |
+| **Total** | **8,509** | 100.0% | **0** |
 
 ### By source type
 
