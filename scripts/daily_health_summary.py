@@ -12,7 +12,7 @@ Scans every JSON Lines file under data/, computes key daily metrics and writes:
 
 Metrics produced:
   - total records (global + per region)
-  - new records since the previous sync (first run: records on the latest date)
+  - new records on the latest (most recent) batch date
   - missing-value ratio per key field (data quality)
   - distribution by disease type / research topic
   - distribution by source type (clinical trial / surveillance / survey)
@@ -92,28 +92,13 @@ def compute_metrics(records):
     min_date = min(dates) if dates else None
     today = dt.date.today().isoformat()
 
-    # new records since last sync ------------------------------------------ #
+    # new records = intake on the most recent (latest) batch date ----------- #
     new_records = 0
     new_by_region = Counter()
-    last_sync = {}
-    if os.path.exists(LAST_SYNC_PATH):
-        try:
-            with open(LAST_SYNC_PATH, encoding="utf-8") as fh:
-                last_sync = json.load(fh)
-        except (json.JSONDecodeError, OSError):
-            last_sync = {}
-    prev_max_date = last_sync.get("max_date")
-
-    if prev_max_date and prev_max_date >= max_date:
-        # no new data since last sync
-        new_records = 0
-        new_by_region = Counter()
-    else:
-        cutoff = prev_max_date or max_date
-        for r in records:
-            if r.get("date") and r["date"] >= cutoff:
-                new_records += 1
-                new_by_region[r.get("region")] += 1
+    for r in records:
+        if r.get("date") and max_date and r["date"] == max_date:
+            new_records += 1
+            new_by_region[r.get("region")] += 1
 
     # missing values -------------------------------------------------------- #
     missing = {}
@@ -278,7 +263,7 @@ def render_readme(m, repo):
     A("| Metric | Value |")
     A("| --- | --- |")
     A(f"| **Total records** | {m['total']:,} |")
-    A(f"| **New records (since last sync)** | {m['new_records']:,} |")
+    A(f"| **New records (latest batch)** | {m['new_records']:,} |")
     A(f"| **Regions covered** | 2 (South Africa, Egypt) |")
     A(f"| **Date range** | {m['min_date']} → {m['max_date']} |")
     A(f"| **Latest data update** | {m['max_date']} |")

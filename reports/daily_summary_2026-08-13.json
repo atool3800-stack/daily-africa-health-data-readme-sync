@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T14:22:03.324879+00:00",
+  "generated_at": "2026-08-13T14:24:18.298745+00:00",
   "max_date": "2026-08-13",
   "total_records": 8509,
-  "new_records": 0,
+  "new_records": 262,
   "records_by_region": {
     "Egypt": 4261,
     "South Africa": 4248
@@ -48,9 +48,9 @@
   "completeness": 96.41,
   "default_branch": "main",
   "latest_commit": {
-    "sha": "f6be219",
+    "sha": "e169ecf",
     "message": "daily(readme): update health data summary 2026-08-13",
-    "date": "2026-08-13T14:20:50Z",
-    "author": "Health Data Sync Bot"
+    "date": "2026-08-13T14:22:03Z",
+    "author": "health-data-sync-bot"
   }
 }
