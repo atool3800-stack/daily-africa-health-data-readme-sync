@@ -8,7 +8,7 @@ Structured public-health records for **South Africa** and **Egypt** collected fr
 
 ## 📊 每日数据摘要 / Daily Data Summary
 
-*Generated at **2026-11-05 11:40 UTC** from 72 data file(s).*
+*Generated at **2026-11-06 11:38 UTC** from 72 data file(s).*
 
 | Metric | Value |
 | --- | --- |
@@ -19,7 +19,7 @@ Structured public-health records for **South Africa** and **Egypt** collected fr
 | **Latest data update** | 2026-08-13 |
 | **Data completeness** | 96.4% |
 | **Default branch** | `main` |
-| **Latest commit** | [`6327f52`](https://github.com/atool3800-stack/daily-africa-health-data-readme-sync/commit/6327f52) `daily(readme): update health data summary 2026-11-04` (2026-11-04T11:39:04Z) |
+| **Latest commit** | [`1ee81ed`](https://github.com/atool3800-stack/daily-africa-health-data-readme-sync/commit/1ee81ed) `daily(readme): update health data summary 2026-11-05` (2026-11-05T11:40:19Z) |
 
 ---
 
@@ -54,8 +54,8 @@ Structured public-health records for **South Africa** and **Egypt** collected fr
 | HIV/AIDS | 456 | 5.4% |
 | Schistosomiasis | 452 | 5.3% |
 | Dengue Fever | 421 | 4.9% |
-| Mental Health | 418 | 4.9% |
 | Kidney Disease | 418 | 4.9% |
+| Mental Health | 418 | 4.9% |
 | Malaria | 412 | 4.8% |
 
 ---
@@ -165,7 +165,7 @@ If you use this repository in academic work, please cite it as:
   author       = {Health Data Engineering Team},
   year         = {2026},
   howpublished = {GitHub Repository},
-  note         = {Latest data update: 2026-08-13, retrieved 2026-11-05},
+  note         = {Latest data update: 2026-08-13, retrieved 2026-11-06},
   url          = {https://github.com/atool3800-stack/daily-africa-health-data-readme-sync}
 }
 ```
