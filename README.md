@@ -8,7 +8,7 @@ Structured public-health records for **South Africa** and **Egypt** collected fr
 
 ## 📊 每日数据摘要 / Daily Data Summary
 
-*Generated at **2026-11-08 10:48 UTC** from 72 data file(s).*
+*Generated at **2026-11-09 12:13 UTC** from 72 data file(s).*
 
 | Metric | Value |
 | --- | --- |
@@ -19,7 +19,7 @@ Structured public-health records for **South Africa** and **Egypt** collected fr
 | **Latest data update** | 2026-08-13 |
 | **Data completeness** | 96.4% |
 | **Default branch** | `main` |
-| **Latest commit** | [`0c056df`](https://github.com/atool3800-stack/daily-africa-health-data-readme-sync/commit/0c056df) `daily(readme): update health data summary 2026-11-07` (2026-11-07T10:43:48Z) |
+| **Latest commit** | [`14c4a35`](https://github.com/atool3800-stack/daily-africa-health-data-readme-sync/commit/14c4a35) `daily(readme): update health data summary 2026-11-08` (2026-11-08T10:48:40Z) |
 
 ---
 
@@ -165,7 +165,7 @@ If you use this repository in academic work, please cite it as:
   author       = {Health Data Engineering Team},
   year         = {2026},
   howpublished = {GitHub Repository},
-  note         = {Latest data update: 2026-08-13, retrieved 2026-11-08},
+  note         = {Latest data update: 2026-08-13, retrieved 2026-11-09},
   url          = {https://github.com/atool3800-stack/daily-africa-health-data-readme-sync}
 }
 ```
