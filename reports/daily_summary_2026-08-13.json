@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T12:07:50.233419+00:00",
+  "generated_at": "2026-11-17T12:33:03.084570+00:00",
   "max_date": "2026-08-13",
   "total_records": 8509,
   "new_records": 262,
@@ -48,9 +48,9 @@
   "completeness": 96.41,
   "default_branch": "main",
   "latest_commit": {
-    "sha": "4d2598d",
-    "message": "daily(readme): update health data summary 2026-11-15",
-    "date": "2026-11-15T11:34:50Z",
+    "sha": "046e93e",
+    "message": "daily(readme): update health data summary 2026-11-16",
+    "date": "2026-11-16T12:07:50Z",
     "author": "health-data-sync-bot"
   }
 }
