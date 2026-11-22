@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-11-21T11:51:16.570310+00:00",
+  "generated_at": "2026-11-22T12:03:19.871189+00:00",
   "max_date": "2026-08-13",
   "total_records": 8509,
   "new_records": 262,
   "records_by_region": {
-    "Egypt": 4261,
-    "South Africa": 4248
+    "South Africa": 4248,
+    "Egypt": 4261
   },
   "records_by_disease": {
-    "Kidney Disease": 418,
-    "COVID-19": 788,
-    "Schistosomiasis": 452,
-    "Hepatitis C": 485,
-    "Hypertension": 809,
-    "Cholera": 875,
-    "Dengue Fever": 421,
-    "Tuberculosis": 827,
-    "Diabetes Mellitus": 805,
     "Maternal Health": 874,
+    "Cholera": 875,
     "HIV/AIDS": 456,
     "Mental Health": 418,
+    "Diabetes Mellitus": 805,
+    "COVID-19": 788,
     "Childhood Immunization": 469,
-    "Malaria": 412
+    "Tuberculosis": 827,
+    "Hypertension": 809,
+    "Malaria": 412,
+    "Kidney Disease": 418,
+    "Schistosomiasis": 452,
+    "Hepatitis C": 485,
+    "Dengue Fever": 421
   },
   "records_by_source": {
     "clinical_trial": 2589,
@@ -48,9 +48,9 @@
   "completeness": 96.41,
   "default_branch": "main",
   "latest_commit": {
-    "sha": "c4145b5",
-    "message": "daily(readme): update health data summary 2026-11-20",
-    "date": "2026-11-20T12:15:57Z",
+    "sha": "348d979",
+    "message": "daily(readme): update health data summary 2026-11-21",
+    "date": "2026-11-21T11:51:16Z",
     "author": "health-data-sync-bot"
   }
 }
